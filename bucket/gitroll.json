@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Private logbook stored in your own Git repository",
   "homepage": "https://github.com/jimhoyd-com/gitroll",
   "license": "MIT",
   "depends": ["nodejs-lts", "git"],
-  "url": "https://github.com/jimhoyd-com/gitroll/releases/download/v0.2.0/gitroll-0.2.0.tgz",
-  "hash": "d283b130426694bac6406f1613f72d68623cb350d2b3cd8bc4211bf72cf1a4d9",
+  "url": "https://github.com/jimhoyd-com/gitroll/releases/download/v0.3.0/gitroll-0.3.0.tgz",
+  "hash": "b19ad539bfee90193eb8f31f20c3039bb1fbedc55e3e3f2921478a1535f638f1",
   "extract_dir": "package",
   "installer": {
     "script": "Set-Content -Path \"$dir\\gitroll.cmd\" -Value '@node \"%~dp0dist\\gitroll.mjs\" %*' -Encoding ASCII"
